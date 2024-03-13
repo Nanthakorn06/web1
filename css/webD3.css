@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(47, 229, 168);*/ 
+    font-family: 'Poppins', sans-serif;
+}
+/* ---------header */
+header{
+    background-color: #27aeb8;
+    
+}
+nav{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1100px;
+    height: 48px;
+    margin: auto;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+li{
+    margin-right: 20px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* start hero---------------------------------------------------*/
+.hero{
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hero-tetx--box{
+    color: #ffffff;
+
+}
+.hero-button{
+    display: flex;
+
+}
+.hero-bt-getStart{
+    padding: 8px 20px;
+    border-radius: 30px;
+    background-color: #0EE2EF;
+    margin-right: 30px;
+}
+.hero-bt--watch{
+    display: flex;
+    align-items: center;
+
+}
+.hero-image{
+    
+
+}
+.Pricing{
+
+    color: brown;
+    margin: auto;
+    width: 1100px;
+
+}
+.Pricing1 {
+    margin-top: 40px;
+    color: brown;
+    text-align: center;
+}
+
+
+.Pricing-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+}
+
+.Pricing-box1{
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 2px #bfe2ee;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #695c5c(0 , 0 , 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+
+.Pricing-box2 {
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 2px #bfe2ee;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #695c5c(0 , 0 , 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+
+.Pricing-box3 {
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 2px #bfe2ee;
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #695c5c(0 , 0 , 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+
+/*----- Start Member section -----*/
+
+.member{
+    background-color:#27A3AB;
+    padding: 40px;
+    text-align: center;
+}
+
+.member-box{
+    width: 1100px;
+    background-color: #fafafa;
+    margin: auto;
+
+
+    box-shadow: 0px 0px 5px 0.5px #888888;
+    border-radius: 5px;
+    padding: 1px 40px 40px;
+}
+
+table{
+    width: 80%;
+    border: 1px solid red;
+    border-collapse: collapse;
+    margin: auto;
+    text-transform: capitalize;
+}
+
+th, td{
+    border: 1px solid red;
+}
+
+th{
+
+}
+
+td{
+
+}
+
+.c1{
+    width: 1100px;
+    margin: auto;
+}
+.c2{
+    margin-left: 420px;
+}
+.c3{
+    margin: auto; 
+    width: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.c4{
+    margin: auto; 
+   width: 500px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255); 
+}
+.c5{
+    margin: auto; 
+   width: 1005px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255); 
+}
+.c6{
+    margin: auto; 
+   width: 1005px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255); 
+   padding: 5%;
+
+}
+.c7{
+    text-align: center;
+}
+.c8{
+    border-radius: 40px;
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+}
+footer {
+    background-color: #27aeb8; 
+    text-align: center; 
+    color: aliceblue;
+    padding: 10px;
+    }
+.contact{
+    text-align: center;
+}    
+.lorem{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    

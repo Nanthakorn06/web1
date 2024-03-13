@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin:auto ;
+    justify-content: space-between;
+    color: whitesmoke;
+    /*background-color: aquamarine;*/
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.logo{
+    align-items: center;
+    display: flex;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav ul li{
+    margin-left: 30px;
+}
+
+/*----------rps menu-------------------------------------------*/
+@media screen and (max-width:480px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+
+
+
+/*-----------------main-content-------------------------------*/
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    max-width: 95%;
+    margin: auto;
+}
+.box{
+    margin: 30px 10px; 
+    box-shadow: 0px 0px 3px 0px black; 
+    border-radius: 10px 10px 0px 0px;
+}
+.image{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.text-content{
+    padding: 10px;
+}
+
+/*-------------------hero---------------------------------------------------------*/
+.hero{
+    background-image: url("https://images.unsplash.com/photo-1494256997604-768d1f608cac?q=80&w=1858&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-hero{
+    font-size: 50px;
+    color: aliceblue;
+    
+}
+
+/*-------------------social---------------------------------------------------*/
+.s{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0;
+}
+.image1{
+    display: flex;
+    
+    justify-content: center;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+
+   
+    
+    
+}
+
+
+/*---------------main-content------------------------------------------------*/
+@media screen and (max-width:480px){
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+        max-width: 95%;
+        margin: auto;
+    }
+    .box{
+        margin: 30px 10px; 
+        box-shadow: 0px 0px 3px 0px black; 
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+/*-----------footer--------------*/
+footer{
+    background-color: #000000;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
