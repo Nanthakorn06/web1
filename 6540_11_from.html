@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <h1 class="text-uppercase">tutorial about from</h1>
+    <hr>
+    <from action="">
+        <fieldset>
+            <legend>Tex Field</legend>
+
+            <label for="fname">first name</label>
+            <input type="text" id="fname" name="fname" placeholder="กรุณาป้อนชื่อ" required>
+            <br>
+
+            <label for="lname">last name</label>
+            <input type="text" id="lname" name="lname" placeholder="กรุณาป้อนนามสกุล" >
+            <br>
+
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="กรุณาป้อนอีเมล" >
+            <br>
+
+            <label for="ege">ege</label>
+            <input type="number" id="ege" name="ege" placeholder="กรุณาป้อนอายุ" min="0 " max="100">
+            <br>
+
+            <label for="ege2">ege2</label>
+            <input type="number" id="ege2" name="ege2" placeholder="กรุณาป้อนอายุ" min="0 " max="100" value="60" readonly>
+            <br>
+
+            <label for="birthday">birthday</label>
+            <input type="date" id="birthday" name="birthday" placeholder="กรุณาป้อนวันเกิด" >
+            
+        </fieldset>
+        <fieldset>
+            <legend>Radio Button</legend>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="Male" value="ชาย">
+            <label for="">ชาย</label>
+            
+            <input type="radio" name="gender" id="Female" value="หญิง">
+            <label for="">หญิง</label>
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox</legend>
+        </fieldset>
+    </from>
+</body>
+</html>
