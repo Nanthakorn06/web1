@@ -13,3 +13,35 @@ a{
     text-decoration: none;
     
 }
+footer{
+    background-color: #2E455C;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+.my-circle{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    
+}
+.mybg{
+      background-color: #2E455C;
+}
+.member{
+    background-color:#27A3AB;
+    padding: 40px;
+    text-align: center;
+}
+
+.member-box{
+    width: 1100px;
+    background-color: #fafafa;
+    margin: auto;
+
+
+    box-shadow: 0px 0px 5px 0.5px #888888;
+    border-radius: 5px;
+    padding: 1px 40px 40px;
+}
